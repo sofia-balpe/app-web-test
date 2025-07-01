@@ -66,3 +66,70 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+.bodyCurriculo {
+    background-color: rgb(255, 236, 241);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contents {
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: white;
+    border: 3px solid rgb(255, 111, 135);
+    border-radius: 15px;
+}
+
+.cabecalho {
+    display: grid;
+    grid-column: span 2;
+    gap: 0px;
+    margin-left: 10px;
+}
+
+.img {
+    margin-top: 50px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    text-align: left;
+    height: 200px;
+    width: auto;
+    border-radius: 50px;
+    border: 2px solid rgb(255, 187, 235);
+    box-shadow: 0px 0px 7px rgb(250, 169, 182);
+}
+
+.h1 {
+    margin-bottom: 45px;
+}
+
+.name {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    margin-top: 50px;
+    line-height: 10px;
+}
+
+.objetivo {
+    margin-top: 40px;
+    line-height: 5px;
+    margin-left: 10px;
+}
+
+.formacao {
+    margin-top: 50px;
+    line-height: 5px;
+    margin-left: 10px;
+}
+
+.experiencia {
+    margin-top: 50px;
+    line-height: 5px;
+    margin-left: 10px;
+}
+
+.qualificacao {
+    margin-top: 50px;
+    line-height: 5px;
+    margin-left: 10px;
+}

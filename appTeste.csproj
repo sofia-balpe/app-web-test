@@ -6,4 +6,15 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="wwwroot\css\NovaPasta\**" />
+    <Content Remove="wwwroot\css\NovaPasta\**" />
+    <EmbeddedResource Remove="wwwroot\css\NovaPasta\**" />
+    <None Remove="wwwroot\css\NovaPasta\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\css\minhafoto.jpg" />
+  </ItemGroup>
+
 </Project>
